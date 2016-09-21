@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_loading"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="正在加载数据..."
+        android:textColor="#9C9C9C" />
+
+   
+    <ListView
+        android:id="@+id/list_tab_a"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:divider="#ffffff"
+        android:dividerHeight="0px" >
+    </ListView>
+
+</LinearLayout>

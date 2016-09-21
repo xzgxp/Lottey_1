@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_alert">提示信息</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="app_name">彩票</string>
+    <string name="word_recommend">精彩推荐</string>
+    <string name="word_hall">购彩大厅</string>
+    <string name="word_trend">开奖趋势</string>
+    <string name="word_mine">我的凤凰</string>
+    <string name="action_settings">action_settings</string>
+    <string name="five_star">五星</string>
+    <string name="a">hahaha</string>
+    <string name="b">bbhbhbh</string>
+    <string name="five_direct_double_name">五星直选复式</string>
+    <string name="five_group_120_name">五星组选120</string>
+    <string name="five_group_60_name">五星组选60</string>
+    <string name="five_group_30_name">五星组选30</string>
+    <string name="five_group_20_name">五星组选20</string>
+    <string name="five_group_10_name">五星组选10</string>
+    <string name="five_group_5_name">五星组选5</string>
+    <string name="four_direct_double_name">四星直选复式</string>
+    <string name="four_group_24_name">四星组选24</string>
+    <string name="four_group_12_name">四星组选12</string>
+    <string name="topthree_direct_double_name">前三直选复式</string>
+    <string name="topthree_group_three_name">前三组选组三</string>
+    <string name="topthree_group_six_name">前三组选组六</string>
+    <string name="topthree_group_sum_name">前三组选和值</string>
+    <string name="topthree_group_container_name">前三组选包胆</string>
+    <string name="bottomthree_direct_double_name">后三直选复式</string>
+    <string name="bottomthree_group_span_name">后三直选跨度</string>
+    <string name="bottomthree_group_three_name">后三组选组三</string>
+    <string name="bottomthree_group_six_name">后三组选组六</string>
+    <string name="bottomthree_group_sum_name">后三组选和值</string>
+    <string name="bottomthree_group_container_name">后三组选包胆</string>
+    <string name="two_direct_bottomtwo_double_name">二星直选后二复式</string>
+    <string name="two_direct_bottomtwo_sum_name">二星直选后二和值</string>
+    <string name="two_direct_bottomtwo_span_name">二星直选后二跨度</string>
+    <string name="two_direct_toptwo_double_name">二星直选前二复式</string>
+    <string name="two_direct_toptwo_span_name">二星直选前二跨度</string>
+    <string name="two_group_bottomtwo_double_name">二星组选后二复式</string>
+    <string name="two_group_toptwo_double_name">二星组选前二复式</string>
+    <string name="fixed_position_name">定位胆</string>
+    <string name="three_bottomthree_one_notposition_name">后三一码不定位</string>
+    <string name="three_bottomthree_two_notposition_name">后三二码不定位</string>
+    <string name="three_topthree_one_notposition_name">前三一码不定位</string>
+    <string name="three_topthree_two_notposition_name">前三二码不定位</string>
+    <string name="four_bottomfour_two_notposition_name">四星二码不定位</string>
+    <string name="five_bottomfive_two_notposition_name">五星二码不定位</string>
+    <string name="five_bottomfive_three_notposition_name">五星三码不定位</string>
+    <string name="two_group_toptwo_sum_name">二星组选前二和值</string>
+    <string name="four_group_6_name">四星组选6</string>
+    <string name="four_group_4_name">四星组选4</string>
+    <string name="bottomthree_direct_sum_name">后三直选和值</string>
+    <string name="topthree_direct_sum_name">前三直选和值</string>
+    <string name="topthree_direct_span_name">前三直选跨度</string>
+    <string name="topthree_sum_end_name">前三和值尾数</string>
+    <string name="bottomthree_sum_end_name">后三和值尾数</string>
+    <string name="two_direct_toptwo_sum_name">二星直选前二和值</string>
+    <string name="two_group_toptwo_container_name">二星组选前二包胆</string>
+    <string name="two_group_bottomtwo_container_name">二星组选后二包胆</string>
+    <string name="two_group_bottomtwo_sum_name">二星组选后二和值</string>
+    <string name="four_bottomfour_one_notposition_name">四星一码不定位</string>
+    <string name="maxmin_bottomtwo_name">后二大小单双</string>
+    <string name="maxmin_bottomthree_name">后三大小单双</string>
+    <string name="maxmin_toptwo_name">前二大小单双</string>
+    <string name="maxmin_topthree_name">前三大小单双</string>
+    <string name="quiklystart">快速开始</string>
+    <string name="back">退后</string>
+    <string name="forward">前进</string>
+    <string name="title">标题</string>
+    <string name="modifyAccountpassworddetails">6-16位字符，由字母和数组成，不能连续三位相同不能喝登录密码相同</string>
+    <string name="securityquestiondetails">答案包含4-16位字符，可由中文，字母机数字组成</string>
+    <string name="ingdingcarddetails">由16、18或19位数字组成，为了您的提款能正常到账，请输入正确的借记卡号</string>
+    <string name="bingdingcardsecuritydetails">为了您的账户安全，绑定将在操作完成一小时后才能发起"向平台提现"</string>
+    <string name="chongzhi">单次最低充值%1$s元，最高%2$s元，请在10分钟内完成充值操作</string>
+
+    <string-array name="questiondetaisl">
+        <item>请选择问题</item>
+        <item>我宠物的名字？</item>
+        <item>我最亲密的朋友是？</item>
+        <item>我最喜欢的演员</item>
+    </string-array>
+    <string-array name="bingdingcardbanktype">
+        <item>中国工商银行</item>
+        <item>招商银行</item>
+        <item>建设银行</item>
+        <item>农业银行</item>
+        <item>交通银行</item>
+        <item>民生银行</item>
+        <item>中信银行</item>
+        <item>浦发银行</item>
+    </string-array>
+    <string-array name="province"></string-array>
+
+</resources>

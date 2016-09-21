@@ -1,0 +1,2226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/rule_back"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="#66CDAA"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/back_btn"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#66CDAA"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="玩法说明"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="#66CDAA"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/rule_tickettype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_vertical"
+                android:text="江西时时彩"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="基本信息"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="销售时间"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/rule_ticketdetail"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="09:10-23:15,10分钟一期，全天84期。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="玩法规则"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="每期开出一个5位数作为中奖号码，\n万、千、百、十、个位每位号码为0-9。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="五星直选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从万位、千位、百位、十位、个位中选择一个5位数号码组成一注，所选号码与开奖号码全部相同，且顺序一致，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="五星组选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="五星组选120"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中任意选择5个号码组成一注，所选号码与开奖号码的万位、千位、百位、十位、个位相同，顺序不限，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="五星组选60"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择1个二重号码和3个单号号码组成一注，所选的单号号码与开奖号码相同，且所选二重号码在开奖号码中出现了2次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="五星组选30"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择2个二重号和1个单号号码组成一注，所选的单号号码与开奖号码相同，且所选的2个二重号码分别在开奖号码中出现了2次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="五星组选20"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择1个三重号码和2个单号号码组成一注，所选的单号号码与开奖号码相同，且所选三重号码在开奖号码中出现了3次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="五星组选10"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择1个三重号码和1个二重号码，所选三重号码在开奖号码中出现3次，并且所选二重号码在开奖号码中出现了2次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="五星组选5"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择1个四重号码和1个单号号码组成一注，所选的单号号码与开奖号码相同，且所选四重号码在开奖号码中出现了4次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="四星直选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从千位、百位、十位、个位中选择一个4位数号码组成一注，所选号码与开奖号码相同，且顺序一致，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="四星组选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="四星组选24"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中任意选择4个号码组成一注，所选号码与开奖号码的千位、百位、十位、个位相同，且顺序不限，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="四星组选12"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择1个二重号码和2个单号号码组成一注，所选单号号码与开奖号码相同，且所选二重号码在开奖号码中出现了2次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="四星组选6"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择2个二重号码组成一注，所选的2个二重号码在开奖号码中分别出现了2次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="四星组选4"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="选择1个三重号码和1个单号号码组成一注，所选单号号码与开奖号码相同，且所选三重号码在开奖号码中出现了3次，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="前三直选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从万位、千位、百位中选择一个3位数号码组成一注，所选号码与开奖号码的前3位相同，且顺序一致，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的万位、千位、百位三个数字相加之和，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="跨度"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的前3位最大与最小数字相减之差，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="前三组选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组三"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择2个数字组成两注，所选号码与开奖号码的万位、千位、百位相同，且顺序不限，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组六"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中任意选择3个号码组成一注，所选号码与开奖号码的万位、千位、百位相同，顺序不限，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组选和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="(不含豹子号)	所选数值等于开奖号码万位、千位、百位三个数字相加之和(不含豹子号)，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组选包胆"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="(不含豹子号)	从0-9中任意选择1个包胆号码，开奖号码的万位、千位、百位中任意1位只要和所选包胆号码相同(不含豹子号)，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="前三和值尾数"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="和值尾数"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的万位、千位、百位三个数字相加之和的尾数，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="后三直选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从百位、十位、个位中选择一个3位数号码组成一注，所选号码与开奖号码后3位相同，且顺序一致，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的百位、十位、个位三个数字相加之和，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="跨度"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的后3位最大与最小数字相减之差，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="后三组选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组三"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择2个数字组成两注，所选号码与开奖号码的百位、十位、个位相同，且顺序不限，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组六"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中任意选择3个号码组成一注，所选号码与开奖号码的百位、十位、个位相同，顺序不限，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组选和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="(不含豹子号)	所选数值等于开奖号码百位、十位、个位三个数字相加之和(不含豹子号)，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="组选包胆"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="(不含豹子号)	从0-9中任意选择1个包胆号码，开奖号码的百位、十位、个位中任意1位与所选包胆号码相同(不含豹子号)，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="后三和值尾数"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="和值尾数"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的百位、十位、个位三个数字相加之和的尾数，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="二星直选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后二复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从十位、个位中选择一个2位数号码组成一注，所选号码与开奖号码的十位、个位相同，且顺序一致，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后二和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的十位、个位二个数字相加之和，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后二跨度"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的后2位最大与最小数字相减之差，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前二复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从万位、千位中选择一个2位数号码组成一注，所选号码与开奖号码的前2位相同，且顺序一致，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前二和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的万位、千位二个数字相加之和，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前二跨度"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的前2位最大与最小数字相减之差，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="二星组选"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后二复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选2个号码组成一注，所选号码与开奖号码的十位、个位相同，顺序不限（不含对子号），即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后二和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的十位、个位二个数字相加之和（不含对子号），即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后二包胆"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中任意选择1个包胆号码，开奖号码的十位、个位中任意1位包含所选的包胆号码相同（不含对子号），即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前二复式"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选2个号码组成一注，所选号码与开奖号码的万位、千位相同，顺序不限（不含对子号），即中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前二和值"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="所选数值等于开奖号码的万位、千位二个数字相加之和（不含对子号），即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前二包胆"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中任意选择1个包胆号码，开奖号码的万位、千位中任意1位包含所选的包胆号码相同（不含对子号），即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="定位胆"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="定位胆"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从万位、千位、百位、十位、个位任意位置上至少选择1个以上号码，所选号码与相同位置上的开奖号码一致，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="三星不定位"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后三一码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择1个号码，每注由1个号码组成，只要开奖号码的百位，十位，个位中包含所选号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后三二码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择2个号码，每注由两个不同的号码组成，开奖号码的百位、十位、个位中同时包含所选的2个号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前三一码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择1个号码，每注由1个号码组成，只要开奖号码的万位、百位、十位中包含所选号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前三二码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择2个号码，每注由两个不同的号码组成，开奖号码的万位、百位、十位中同时包含所选的2个号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="四星不定位"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="四星一码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择1个号码，每注由1个号码组成，只要开奖号码的千位、百位，十位，个位中包含所选号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="四星二码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择2个号码，每注由两个不同的号码组成，开奖号码的千位、百位、十位、个位中同时包含所选的2个号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="五星不定位"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后三一码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择2个号码，每注由两个不同的号码组成，开奖号码的万位、千位、百位、十位、个位中同时包含所选的2个号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后三二码不定位"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="从0-9中选择3个号码，每注由3个不同的号码组成，开奖号码的万位、千位、百位、十位、个位中同时包含所选的3个号码，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="bottom"
+                android:text="大小单双"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后二大小单双"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:layout_marginTop="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="对十位和个位的“大（56789）、小（12345）、单（13579）、双（24680）”形态进行购买，所选号码的位置、形态、与开奖号码的位置、形态相同，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="后三大小单双"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="对百位、十位和个位的“大（56789）、小（12345）、单（13579）、双（24680）”形态进行购买，所选号码的位置、形态、与开奖号码的位置、形态相同，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前二大小单双"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="对万位和千位的“大（56789）、小（12345）、单（13579）、双（24680）”形态进行购买，所选号码的位置、形态、与开奖号码的位置、形态相同，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#C5C1AA"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="前三大小单双"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0.3dp"
+                android:layout_marginLeft="0.3dp"
+                android:layout_marginRight="0.3dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text="对万位、千位和百位的“大（56789）、小（12345）、单（13579）、双（24680）”形态进行购买，所选号码的位置、形态、与开奖号码的位置、形态相同，即为中奖。"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

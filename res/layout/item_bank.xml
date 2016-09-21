@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/text_picture"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/bank_gdyh_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_bankname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="中国"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/text_banknumber"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:text="zzz"
+                android:textColor="#6f000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

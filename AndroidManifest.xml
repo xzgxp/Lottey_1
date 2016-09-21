@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lottery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoxun"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.entertiment.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.entertiment.LoginActivity" >
+        </activity>
+        <activity android:name="com.example.lottery.TickettypecustomActivity" >
+        </activity>
+        <activity android:name="ticketpackage.BaseActivityticket" >
+        </activity>
+        <activity android:name="ticketpackage.TicketruleActivity" >
+        </activity>
+        <activity android:name="ticketpackage.numberbasket" >
+        </activity>
+        <activity android:name="ticketpackage.sendnumbervictoy" >
+        </activity>
+        <activity android:name="lottery.BaseActivity" >
+        </activity>
+        <activity android:name="lottery.TickettypecustomActivity" >
+        </activity>
+        <activity android:name="ticketpackage.sendvictory" >
+        </activity>
+        <activity android:name="trend.chongqing" />
+        <activity android:name="trend.jiangxi" />
+        <activity android:name="trend.threed" />
+        <activity android:name="trend.pailie" />
+        <activity android:name="trend.tianjin" />
+        <activity android:name="trend.xinjiang" />
+        <activity android:name="ticketpackage.test" />
+        <activity android:name="other.chongzhi" />
+        <activity android:name="other.message" />
+        <activity android:name="other.setting" />
+        <activity android:name="other.zijinmingxi" />
+        <activity android:name="other.tixian" />
+        <activity android:name="other.kaihuguanli" />
+        <activity android:name="other.othergonggaodetail" />
+        <activity android:name="other.otherzhanneixindetail" />
+        <activity android:name="other.ticketinfodetail" />
+        <activity android:name="other.bankguanli" />
+        <activity android:name="other.loginpassword" />
+        <activity android:name="other.paypassword" />
+        <activity android:name="other.bindingbank" />
+        <activity android:name="other.zijinmingxidetail" />
+        <activity android:name="other.zhuanzhang" >
+        </activity>
+        <activity android:name="threeDandpailiethree.threeDBaseActivityticket" >
+        </activity>
+        <activity android:name="threeDandpailiethree.ThreeDTicketruleActivity" >
+        </activity>
+        <activity android:name="threeDandpailiethree.threednumberbasket" >
+        </activity>
+        <activity android:name="threeDandpailiethree.threedsendvictory" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+</manifest>

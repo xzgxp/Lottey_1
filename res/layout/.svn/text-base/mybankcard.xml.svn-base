@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/titlelinerlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:background="#40E0D0"
+            android:gravity=""
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/mybankback"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:lineSpacingExtra="0sp"
+                android:padding="0dp"
+                android:src="@drawable/back_btn"
+                android:text="@string/back" />
+
+            <Button
+                android:id="@+id/mybankcardtitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="@string/title"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/mybanckcardforward"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="center"
+                android:lineSpacingExtra="0sp"
+                android:padding="0dp"
+                android:src="@drawable/arrow_old_money"
+                android:text="@string/forward" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:text="你还可以绑定5张卡" />
+
+        <Button
+            android:id="@+id/mybanckquiklybingding"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="添加银行卡" />
+
+    </RelativeLayout>
+
+</LinearLayout>

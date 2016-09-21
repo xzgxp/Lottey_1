@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:background="#FAFAFA"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_quchong"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="3"
+            android:background="@drawable/green_button"
+            android:text="去重"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:background="#FAFAFA"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_qingkong"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="3"
+            android:background="@drawable/green_button"
+            android:text="清空"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:background="#FAFAFA"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="40dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edit_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:hint="至少属于一个二位数号码"
+            android:gravity="top" />
+    </LinearLayout>
+
+</RelativeLayout>
